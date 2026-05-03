@@ -34,3 +34,7 @@ cols_in_na_dropped = sf_permits_with_na_dropped.shape[1]
 dropped_columns = cols_in_original_dataset - cols_in_na_dropped
 
 sf_permits_with_na_imputed = sf_permits.fillna(method='bfill', axis=0).fillna(0)
+
+
+
+
